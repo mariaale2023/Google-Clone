@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="generalCSS.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <title>GOOGLE1 1</title>
+  </head>
+  <body>
+  
+
+      <header class="header">
+    
+        
+        <nav class="main-nav-google">
+          <ul class="main-nav-list-google">
+            <li><a class="main-nav-link-google" href="#">Gmail</a></li>
+            <li><a class="main-nav-link-google" href="#">Images</a></li>
+            <li>
+              <!-- <img
+                src="IMG\google\Icon_app_menu.svg"
+                class="google-icon-app span"
+                alt="app icon with nine point col-4"
+              /> -->
+
+              <svg class="gb_Ue" focusable="false" viewBox="0 0 24 24">
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
+                2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
+                2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
+                2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
+                2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
+                2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,
+                -2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
+                2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,
+                2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+              </svg> <!-- !-- este link esta copiado directamente desde google--! -->
+
+
+            </li>
+            <li>
+              <img
+                src="IMG\google\MariaAle.webp"
+                alt="woman happy take a selfy"
+                class="main-nav-img span"
+              />
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- ------------------------------------------------------------------------- -->
+      <section class="google">
+        <div class="main">
+          <img 
+          src="http://logo-logos.com/2016/11/Google_logo_logotype.png " 
+          alt="gooogle logo" 
+          class="logo-google"/>
+
+          <div class="searchBx">
+            <input
+              type="text"
+              name=""
+              class="query-1"
+              placeholder="Search Google or type a URL"
+              value=""
+            />
+
+            <div class="icons">
+              <div>
+                <img
+                  class="icon-search"
+                  src="IMG\google\search_icon-_google.svg"
+                  alt="google search icon black"
+                />
+              </div>
+              <div>
+                <img
+                  class="icon-micro"
+                  src="IMG\google\google_mic_icon.svg"
+                  alt="microphne icon google full color"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="button">
+            <button class="searchBtn">Google search</button>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        let queryEl = document.querySelector(".query-1");
+        let searchBtn = document.querySelector(".searchBtn");
+
+        searchBtn.onclick = function () {
+          let url = "https://www.google.com/search?q=" + queryEl.value;
+          window.open(url, "_self");
+        };
+      </script>
+
+      <!-- ******************* -->
+      <!-- END HERO SECTION -->
+      <!-- ******************** -->
+    </main>
+  </body>
+</html>
