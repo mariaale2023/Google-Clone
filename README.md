@@ -1,4 +1,4 @@
-# Google-Search
+# Google Clone
 Google is a clone of Google Search Engine with HTML, CSS and JS. 
  
 It is not finish (list for to do): 
