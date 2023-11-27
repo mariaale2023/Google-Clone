@@ -1,5 +1,8 @@
 # Google Clone
 Google is a clone of Google Search Engine with HTML, CSS and JS. 
+
+![clone](GoogleClone.jpg)
+*image created by dall-e*
  
 It is not finish (list for to do): 
 - Check size images
